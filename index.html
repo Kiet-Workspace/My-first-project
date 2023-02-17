@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/assets/fonts/themify-icons/themify-icons.css">
+    <title>Kiet Workspace iPorfolio</title>
+</head>
+<body>
+    <!-- Line header -->
+    <div class="header">
+        <div class="head-item">
+            <img class="logo-mimo" src="mimo logo.png" alt="">     
+            <a href="#">MIMO<span>LEARNING</span></a>
+        </div>
+        <div class="head-name">
+            <a href="#">iPorfolio</a>
+        </div>
+        <div class="sign-in"><button onclick="openSignIn()" class="sign-in-button">Sign In</button></div>
+    </div>
+    <div class="sign-in-model"><!--Modal-->
+        <div class="sign-in-input">
+            <div class="model-sign-in-name font-apple">
+                <p class="name-sign-in">SIGN IN</p>
+                <button class="sign-in-close" onclick="closeSignIn()"><p class="ti-close"></p></button>
+            </div>
+            <div class="model-form font-apple">
+                <div class="form-email">
+                    <label for="sign-in-email">
+                        <p class="ti-email"></p>
+                        <p class="email-ti">Your email:</p>
+                    </label>
+                    <input id="sign-in-email" class="model-sign-in-email font-apple" type="email" placeholder="Your email">
+                    <p class="alert-sign-in-email"></p>
+                </div>
+                <div class="form-password">
+                    <label for="sign-in-password">
+                        <p class="ti-unlock"></p>
+                        <p class="unlock-ti">Your password:</p>
+                    </label>
+                    <input id="sign-in-password" class="model-sign-in-password font-apple" type="password" placeholder="Your password">
+                    <p class="alert-sign-in-password"></p>
+                </div> 
+                <div class="button-sign-in">
+                    <button onclick="sendSignIn()" class="sign-in-send">SEND</button>
+                </div>
+            </div>           
+        </div>
+    </div>
+    <!-- Sections -->
+    <div class="info">
+        <!-- Avatar -->
+        <div class="avatar">
+            <img src="avatar.jpg" alt="">
+            <p class="iName" align="center">Kiet Workspace</p>
+        </div>
+        <div class="social">
+        <a href="#"><i class="ti-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100036267440395" target="_blank"><i class="ti-facebook"></i></a>
+        <a href="#"><i class="ti-instagram"></i></a>
+        <a href="#"><i class="ti-skype"></i></a>
+        <a href="#"><i class="ti-linkedin"></i></a>
+        </div>
+        <!-- iNavigation -->
+        <div class="iNav">
+            <ul class="nav">
+                <li class="nav-item nav-home">
+                    <a href="#home"><i class="ti-home"></i>Home</a>
+                </li>
+                <li class="nav-item nav-about">
+                    <a href="#about"><i class="ti-user"></i>About</a>
+                </li>
+                <li class="nav-item nav-contact">
+                    <a href="#contact"><i class="ti-email"></i>Contact</a>
+                </li>
+                <li class="nav-item nav-Porfolio">
+                    <a href=""><i class="ti-agenda"></i>Porfolio</a>
+                </li>
+                <li class="nav-item nav-Services">
+                    <a href=""><i class="ti-server"></i>Services</a>
+                </li>
+            </ul>
+        </div>
+        <!-- iFooter -->
+        <div class="iFooter">
+            <p align="center" class="copyright"><i class="ti-pencil-alt"></i>Copyright <strong>iPorfolio</strong></p>
+            <p align="center" class="design">Designed by <span>Kiet workspace</span></p>
+        </div>
+    </div>
+    <!-- Body -->
+    <div class="main">
+        <div class="blank"></div>
+        <!-- Main content -->
+        <div class="body-main">
+            <!-- Under slider ! Ko thuoc Main content -->
+            <div class="slider">
+                <img class="under-slider" src="underslide1.png" alt="">
+            </div>
+            
+            <!-- Main -->
+            <!-- Banner -->
+            <div id="home" class="Banner">
+                <p class="My-name">Kiet Workspace</p>
+                <p class="My-job">I'm <span>Developer</span></p>
+            </div>
+            <!-- About -->
+            <div id="about" class="About">
+                <!-- Name about -->
+                <div class="name-about">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, et? Adipisci, explicabo minus! Recusandae consequuntur labore officia nostrum ut, corrupti, sequi, in consequatur perferendis eveniet eum aut porro dolore aliquid.
+                    Quae, expedita repudiandae laudantium dolore provident cum possimus velit aspernatur animi fugiat nulla rem dolorum, ea accusamus ullam magni molestiae asperiores harum, tempora officia eveniet. Modi suscipit quisquam dignissimos inventore.</p>
+                </div>
+                <!-- Body about -->
+                <div class="body-about">
+                        <!-- Picture about -->
+                    <div class="picture-about">
+                        <img class="aboutPicture" src="avatar.jpg" alt="">
+                    </div>
+                        <!-- Body about inside -->
+                    <div class="body-about-inside">
+                            <!-- Name job -->
+                        <div class="name-job">
+                            <h3>UI/UX Designer & Web Developer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti tempore culpa earum exercitationem sunt, officia ipsam reiciendis atque et! </p>
+                        </div>
+                            <!-- Information -->
+                        <div class="info-1">
+                            <ul>
+                                <li><i class="ti-angle-right"></i><strong>Birthday:</strong>22 Nov 2001</li>
+                                <li><i class="ti-angle-right"></i><strong>Website:</strong>www.kietworkspace.com</li>
+                                <li><i class="ti-angle-right"></i><strong>Phone</strong>+84 365 690 700</li>
+                                <li><i class="ti-angle-right"></i><strong>City:</strong>Can Tho, VN</li>
+                            </ul>
+                        </div>
+                        <div class="info-2">
+                            <ul>
+                                <li><i class="ti-angle-right"></i><strong>Age:</strong>22</li>
+                                <li><i class="ti-angle-right"></i><strong>Degree:</strong>None</li>
+                                <li><i class="ti-angle-right"></i><strong>Email:</strong>kietworkspace@gmail.com</li>
+                                <li><i class="ti-angle-right"></i><strong>Freelance:</strong>Available</li>
+                            </ul>
+                        </div>
+                            <!-- More Information -->
+                        <div class="more-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sed aut enim consequuntur tenetur recusandae, architecto quaerat officiis sunt ullam aliquam beatae eveniet mollitia id quam voluptas ratione soluta magni.
+                            Animi, labore? Porro enim quidem sunt nesciunt in possimus esse repellat, aut maiores amet autem et iste omnis reprehenderit delectus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills -->
+            <div class="skill">
+                <!-- Name skill -->
+                <div class="name-skill">
+                    <h2>Skills</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam facere mollitia temporibus a vero, dolor delectus obcaecati. Nulla necessitatibus ex assumenda. Aliquid tempore esse hic qui cumque harum? Exercitationem.</p>
+                </div>
+                <!-- Data-skills -->
+                <div class="data-skill">
+                    <div class="skill-left">
+                        <div class="html-skill">
+                            <p>HTML</p>
+                            <p>100%</p>
+                        </div>
+                        <div class="html-skill-line">
+                            <div class="html-get"></div>
+                            <div class="html-none"></div>
+                        </div>
+                        <div class="css-skill">
+                            <p>CSS</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="css-skill-line">
+                            <div class="css-get"></div>
+                            <div class="css-none"></div>
+                        </div>
+                        <div class="java-skill">
+                            <p>JAVASCRIPT</p>
+                            <p>40%</p>
+                        </div>
+                        <div class="java-skill-line">
+                            <div class="java-get"></div>
+                            <div class="java-none"></div>
+                        </div>
+                    </div>
+                    <div class="skill-right">
+                        <div class="php-skill">
+                            <p>PHP</p>
+                            <p>40%</p>
+                        </div>
+                        <div class="php-skill-line">
+                            <div class="php-get"></div>
+                            <div class="php-none"></div>
+                        </div>
+                        <div class="ai-skill">
+                            <p>AI</p>
+                            <p>60%</p>
+                        </div>
+                        <div class="ai-skill-line">
+                            <div class="ai-get"></div>
+                            <div class="ai-none"></div>
+                        </div>
+                        <div class="pts-skill">
+                            <p>PHOTOSHOP</p>
+                            <p>40%</p>
+                        </div>
+                        <div class="pts-skill-line">
+                            <div class="pts-get"></div>
+                            <div class="pts-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div id="contact" class="contact">
+                <h2 class="contact-name">Contact</h2>
+                <div class="contact-body font-apple">
+                    <div class="contact-info">
+                        <div class="location-info">
+                            <a href="" class="icon-contact"><i class="ti-location-pin"></i></a>
+                            <h3 class="inside-contact">Location</h3>
+                            <p class="inside-contact">15/132, Ninh Kieu, Can Tho city</p>
+                        </div>
+                        <div class="mail-info">
+                            <a href="" class="icon-contact"><i class="ti-email"></i></a>
+                            <h3 class="inside-contact">Mail</h3>
+                            <p class="inside-contact">kietworkspace@gmail.com</p>
+                        </div>
+                        <div class="call-info">
+                            <a href="" class="icon-contact"><i class="ti-mobile"></i></a>
+                            <h3 class="inside-contact">Call</h3>
+                            <p class="inside-contact">(+84)365-690-700
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="contact-send font-apple">
+                        <div class="send-contact-name">
+                            <input type="text" placeholder="Your name">
+                        </div> 
+                        <div class="send-contact-mail">
+                            <input type="email" placeholder="Your email">
+                        </div>
+                        <div class="send-contact-subject">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="send-contact-message" aria-placeholder="Message">
+                            <input style="height: 80px;" class="message-contact" type="text" placeholder="Message">
+                        </div>
+                        <div class="send-contact-button">
+                            <button class="send-button">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
